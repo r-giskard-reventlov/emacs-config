@@ -1,7 +1,7 @@
 # emacs-config
 Emacs init.el
 ===
-
+```elisp
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
@@ -99,3 +99,4 @@ Emacs init.el
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+```
